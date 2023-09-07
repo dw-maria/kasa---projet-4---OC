@@ -26,18 +26,16 @@ li a:hover{
 
 /* Variables */
 :root {
-	--size-very-big: 1.6rem;
-	--size-big: 1.3rem;
-	--size-medium: 1rem;
-	--size-normal: 0.9rem;
+	--size-big: 2.2rem;
+	--size-medium: 1.2rem;
+	--size-normal: 1rem;
+	--size-small: 0.8rem;
 
 
-	--color-blue: #0065FC;
-	--color-light-blue: #DEEBFF;
-	--color-grey: #F2F2F2;
+	--color-red: #FF6060;
+	--color-grey: #F6F6F6;
 
-	--font-title: 'Montserrat';
-	--font-text: 'Montserrat';
+	--font: 'Montserrat';
 }
 
 html {
@@ -52,29 +50,30 @@ body {
 }
 
 h1 {
-	font-size: var(--size-very-big);
-	font-family: var(--font-title);
+	font-size: var(--size-big);
+	font-family: var(--font);
 	
 }
 
 h2 {
-	font-size: var(--size-big);
-	font-family: var(--font-title);
+	font-size: var(--size-medium);
+	font-family: var(--font);
 }
 
 h3 {
 	font-size: var(--size-medium);
-	font-family: var(--font-title);
+	font-family: var(--font);
 }
 
 h4 {
 	font-size: var(--size-normal);
-	font-family: var(--font-title);
+	font-family: var(--font);
 	font-style: italic;
 }
 
 p {
 	font-size: var(--size-normal);
+	font-family: var(--font);
 }
 
 .content_size {

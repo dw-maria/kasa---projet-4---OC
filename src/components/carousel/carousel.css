@@ -1,0 +1,19 @@
+.carousel{
+    height: 415px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carousel_arrow{
+    width: 30px;
+    height: auto;
+}
+.carousel_left_arrow{
+    margin-left: 30px;
+}
+.carousel_right_arrow{
+    margin-right: 30px;
+}

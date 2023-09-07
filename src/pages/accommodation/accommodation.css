@@ -1,0 +1,38 @@
+.acommodation_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.accommodation_details h1, .accommodation_details p{
+    color: var(--color-red);
+}
+.accommodation_details button{
+    color: white;
+    background-color: var(--color-red);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: var(--size-small);
+
+}
+.accommodation_host_inner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.accommodation_host_infos span{
+    font-family: var(--font);
+    color: var(--color-red);
+    font-size: var(--size-small);
+    margin-right: 20px;
+}
+.accommodation_host_inner img{
+    border-radius: 100px;
+    width: 60px;
+    height: auto;
+}
+.accommodation_host_rating img{
+    width: 23px;
+}

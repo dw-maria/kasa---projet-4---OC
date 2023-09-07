@@ -5,7 +5,7 @@ import Card from '../card/Card'
 export default function Gallery() {
 
     return (
-        <main className='home_gallery'>
+        <main className='home_gallery content_size'>
             {datas.map(data => {
                 return (
                     <Card

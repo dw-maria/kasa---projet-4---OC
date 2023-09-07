@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 92%;
     margin: 0 auto;
+    padding: 20px 0;
+    
 }
 .logo img{
     width: 200px;
