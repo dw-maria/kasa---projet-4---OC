@@ -1,0 +1,22 @@
+.notFound_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.notFound_content_title{
+    font-size: 290px;
+    margin: 0;
+    font-family: 'Montserrat';
+    color: #FF6060;
+}
+.notFound_content_txt{
+    font-family: 'Montserrat';
+    color: #FF6060;
+    font-size: 25px;
+}
+.notFound_content_btn{
+    font-family: 'Montserrat';
+    color: #FF6060;
+    margin-top: 100px;
+}

@@ -1,0 +1,159 @@
+/* Reset HTML */
+
+body,
+html {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a, a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+/* Variables */
+:root {
+	--size-very-big: 1.6rem;
+	--size-big: 1.3rem;
+	--size-medium: 1rem;
+	--size-normal: 0.9rem;
+
+
+	--color-blue: #0065FC;
+	--color-light-blue: #DEEBFF;
+	--color-grey: #F2F2F2;
+
+	--font-title: 'Montserrat';
+	--font-text: 'Montserrat';
+}
+
+html {
+	font-size: 16px;
+	font-family: var(--font-text);
+}
+
+body {
+	font-size: 16px;
+	font-family: var(--font-text);
+	line-height: normal;
+}
+
+h1 {
+	font-size: var(--size-very-big);
+	font-family: var(--font-title);
+	
+}
+
+h2 {
+	font-size: var(--size-big);
+	font-family: var(--font-title);
+}
+
+h3 {
+	font-size: var(--size-medium);
+	font-family: var(--font-title);
+}
+
+h4 {
+	font-size: var(--size-normal);
+	font-family: var(--font-title);
+	font-style: italic;
+}
+
+p {
+	font-size: var(--size-normal);
+}
+
+.content_size {
+    width: 1400px;
+    margin: auto;
+}
+
+.padding_default{
+    padding: 30px 0;
+}
+
+
+
+
+/* Responsive content_size */
+
+@media screen and (max-width: 1400px){
+	.content_size {
+		max-width: 1320px;
+	}
+  }
+  
+  @media screen and (max-width: 1340px){
+	.content_size {
+		width: 1220px;
+	}
+  }
+  
+  @media screen and (max-width: 1240px){
+	.content_size {
+		max-width: 1160px;
+	}
+  }
+  
+  @media screen and (max-width: 1180px){
+	.content_size {
+		max-width: 1120px;
+	}
+  }
+  
+  @media screen and (max-width: 1140px){
+	.content_size {
+		max-width: 1060px;
+	}
+  }
+  
+  @media screen and (max-width: 1080px){
+	.content_size {
+		max-width: 1000px;
+	}
+  }
+  
+  @media screen and (max-width: 1020px){
+	.content_size {
+		max-width: 940px;
+	}
+  }
+  
+  @media screen and (max-width: 960px){
+	.content_size {
+		max-width: 880px;
+	}
+  }
+  
+  @media screen and (max-width: 900px){
+	.content_size {
+		max-width: 820px;
+	}
+  }
+  
+  @media screen and (max-width: 840px){
+	.content_size {
+		max-width: 760px;
+	}
+  }
+  
+  @media screen and (max-width: 768px){
+	.content_size {
+		width: 100%;
+	}
+  }
+
