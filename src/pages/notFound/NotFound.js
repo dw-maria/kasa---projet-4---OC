@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function NotFound() {
 	return (
-		<div className='notFound'>
+		<div className='notFound content_size'>
 			<Header />
 			<div className="notFound_content">
 				<h1 className='notFound_content_title'>404</h1>

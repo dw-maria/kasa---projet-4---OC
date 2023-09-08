@@ -8,15 +8,27 @@
     font-size: 290px;
     margin: 0;
     font-family: 'Montserrat';
-    color: #FF6060;
+    color: var(--color-red);
 }
 .notFound_content_txt{
     font-family: 'Montserrat';
-    color: #FF6060;
-    font-size: 25px;
+    color: var(--color-red);
+    font-size: var(--size-medium);
+    text-align: center;
 }
 .notFound_content_btn{
     font-family: 'Montserrat';
-    color: #FF6060;
+    color:var(--color-red);
     margin-top: 100px;
+    text-decoration: underline var(--color-red) 2px;
+}
+@media screen and (max-width: 768px){
+    .notFound_content_title{
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 500px){
+    .notFound_content_title{
+        font-size: 100px;
+    }
 }
