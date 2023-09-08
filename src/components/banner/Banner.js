@@ -15,7 +15,7 @@ export default function Banner() {
 	}, [])
 
 	return (
-		<section className={aboutPage ? 'banner_about content_size' : 'banner content_size'}>
+		<section className={aboutPage ? 'about_banner content_size' : 'banner content_size'}>
 			{!aboutPage && <h1>Chez vous, partout et ailleurs</h1>}
 		</section>
 	)

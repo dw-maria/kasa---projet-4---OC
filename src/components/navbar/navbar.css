@@ -10,3 +10,7 @@
     color: #FF6060;
     font-family: 'Montserrat';
 }
+.nav_list_item_active{
+    text-decoration: underline var(--color-red) 2px;
+    padding-bottom: 5px;
+}

@@ -1,9 +1,23 @@
 .home_gallery{
     background-color: #F7F7F7;
     border-radius: 20px;
-    padding: 50px;
+    padding: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 40px;
     margin: 40px auto;
+    width: 95%;
+}
+@media screen and (max-width: 992px){
+    .home_gallery{
+        grid-template-columns: repeat(2, 1fr);
+        width: 92%;
+    }
+}
+@media screen and (max-width: 768px){
+    .home_gallery{
+        grid-template-columns: 1fr;
+        background-color: transparent;
+        padding: 0;
+    }
 }

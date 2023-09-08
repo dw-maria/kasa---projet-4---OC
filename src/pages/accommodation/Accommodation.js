@@ -44,6 +44,14 @@ export default function Accommodation() {
 							</div>
 					</div>
 					<div className="accommodation_host">
+					<div className="accommodation_host_rating">
+							{[...Array(5)].map((star, index) => {
+								const ratingValue = index + 1;
+								return (
+									<img key={index} src={ratingValue <= rating ? redStar : greyStar} alt="Rating stars" />
+								)
+							})}
+						</div>
 						<div className="accommodation_host_inner">
 							<div className='accommodation_host_infos'>
 								<span>{name[0]}</span>
@@ -53,14 +61,7 @@ export default function Accommodation() {
 							<img src={dataCurrentAccommodation[0].host.picture} alt="The host" />
 						</div>
 							
-						<div className="accommodation_host_rating">
-							{[...Array(5)].map((star, index) => {
-								const ratingValue = index + 1;
-								return (
-									<img key={index} src={ratingValue <= rating ? redStar : greyStar} alt="Rating stars" />
-								)
-							})}
-						</div>
+						
 					</div>
 				</div>
 				<div className="accommodation_dropdown">

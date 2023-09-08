@@ -17,3 +17,8 @@
 .carousel_right_arrow{
     margin-right: 30px;
 }
+@media screen and (max-width: 768px){
+    .carousel{
+        height: 255px;
+    }
+}

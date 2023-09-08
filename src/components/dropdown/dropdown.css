@@ -5,16 +5,17 @@
 }
 .accommodation_dropdown_item{
     width: 45%;
-
 }
 .dropdown_title{
     display: flex;
     justify-content: space-between;
     background-color: var(--color-red);
-    padding: 10px;
+    padding: 12px;
     font-size: var(--size-normal);
     color: white;
     margin: 0;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .dropdown_content_hidden, .dropdown_content{
     font-family: var(--font);
@@ -23,11 +24,17 @@
     padding: 20px;
     color: var(--color-red);
     line-height: 1.4rem;
+}
+.dropdown_content{
+    max-height: 225px; 
+    overflow: hidden;
+    visibility: visible;
+    margin-bottom: 20px;
     transition: all 0.3s ease-in-out;
 }
 .dropdown_content_hidden{
+    max-height: 0;
     visibility: hidden;
-    transition: all 0.3s ease-in-out;
 }
 .dropdown_content_hidden p, .dropdown_content p{
     margin: 0;
@@ -41,4 +48,12 @@
 .arrow_down{
     transform: rotate(180deg);
     transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 768px){
+    .accommodation_dropdown{
+       flex-direction: column;
+    }
+    .accommodation_dropdown_item{
+        width: 100%;
+    }
 }

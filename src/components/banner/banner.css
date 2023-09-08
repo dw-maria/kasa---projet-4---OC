@@ -8,11 +8,28 @@
     background-position: center;
     background-size: cover;
     height: 220px;
-    padding: 20px;
     margin: 40px auto;
 }
 .banner h1{
     font-family: 'Montserrat';
     color: white;
     font-size: 40px;
+}
+.about_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/about_banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    margin: 40px auto;
+}
+@media screen and (max-width: 768px){
+    .banner h1{
+        font-size: var(--size-big);
+        padding: 20px;
+    }
 }
