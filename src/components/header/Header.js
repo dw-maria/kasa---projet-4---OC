@@ -6,7 +6,7 @@ export default function Header() {
 	return (
 		<header className='header content_size'>
 			<div class="logo">
-				<a href='/' title="Home page"><img src={Logo} alt="kasa, agence de location d'appartements" /></a>
+				<a href='/' title="Home page"><img src={Logo} alt="Logo de Kasa, une agende de gestion de locations" /></a>
 			</div>
 			<Navbar />
 		</header>

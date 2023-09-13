@@ -13,14 +13,17 @@ export default function Accommodation() {
 	
 	const [imageSlider, setImageSlider] = useState([]);
 
+	//Extraction de l'id de l'URL actuel
 	const idAccommodation = useParams('id').id;
 	const dataCurrentAccommodation = datas.filter(data => data.id === idAccommodation);
 	
+	//Mettre à jour les images du slider lorsque l'ID change 
 	useEffect(() => {
 		const dataCurrentAccommodation = datas.filter(data => data.id === idAccommodation);
 		setImageSlider(dataCurrentAccommodation[0].pictures);
 	}, [idAccommodation]);
 
+	//Récupèration des données nécéssaires du logement
 	const name = dataCurrentAccommodation[0].host.name.split(' '); 
 	const rating = dataCurrentAccommodation[0].rating;
 	const description  = dataCurrentAccommodation[0].description;
