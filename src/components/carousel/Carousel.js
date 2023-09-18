@@ -24,9 +24,7 @@ export default function Slider({ imageSlider }) {
     return (
       
         <section
-          className="carousel content_size"
-          style={{ backgroundImage: `url(${imageSlider[currentIndex]})` }}
-        >
+          className="carousel content_size" style={{ backgroundImage: `url(${imageSlider[currentIndex]})` }}>
           {/* Affiche les flèches de navigation uniquement s'il y a plus d'une image */}
           {imageSlider.length > 1 && (
             <>
